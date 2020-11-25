@@ -37,11 +37,8 @@ export const ResultsPage = () => {
   if (results == null) {
     return <div></div>;
   } else {
-    console.log(results);
     const letter = results.top_result;
-    console.log(letter);
     const bird = Birds[0][letter];
-    console.log(bird);
     return (
       <Fragment>
         <div className="result-heading">
